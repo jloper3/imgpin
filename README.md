@@ -1,5 +1,3 @@
-# imgpin
-go cli for making digest pinning painless
 =======
 # 📌 `imgpin` — Deterministic Image Digest Pinning for Containers & Dev Environments
 
