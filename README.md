@@ -1,4 +1,3 @@
-=======
 # 📌 `imgpin` — Deterministic Image Digest Pinning for Containers & Dev Environments
 
 [![CI](https://github.com/jloper3/imgpin/actions/workflows/ci.yaml/badge.svg)](https://github.com/jloper3/imgpin/actions/workflows/ci.yaml)
@@ -191,4 +190,3 @@ This is one of the simplest—but highest-leverage—steps toward **attestation-
 ## 📜 License
 
 MIT License
->>>>>>> 26c3b19 (initial commit)
