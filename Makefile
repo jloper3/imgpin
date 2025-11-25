@@ -101,6 +101,16 @@ uninstall:
 	@echo "✔ Uninstalled"
 
 # -----------------------------------------
+# Pre-commit
+# -----------------------------------------
+
+.PHONY: pre-commit
+pre-commit:
+	@echo "👉 Installing pre-commit hooks..."
+	pre-commit install
+	@echo "✔ Pre-commit hooks installed"
+
+# -----------------------------------------
 # Release
 # -----------------------------------------
 
@@ -134,4 +144,3 @@ debug-env:
 	@echo "GOPATH = $(GOPATH)"
 	@echo "BIN    = $(BIN)"
 	@echo "PKG    = $(PKG)"
-
